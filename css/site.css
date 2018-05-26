@@ -3327,8 +3327,11 @@ footer address {
     box-sizing: border-box;
     padding-left: 16px;
   }
-  header nav .menu-wrap .social-links li:nth-child(1) {
-    padding-left: 16px;
+  header nav .menu-wrap li:nth-child(2) {
+    padding-right: 16px;
+  }
+  header nav .menu-wrap .social-links {
+    display: none;
   }
   header #post-button {
     display: block;
