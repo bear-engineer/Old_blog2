@@ -1,0 +1,19 @@
+<!-- post-list -->
+<aside class="left-post-wrap" id="post-list-wrap">
+  <article class="post-list-head-text">
+    <h3>Post List</h3>
+  </article>
+  <ul>
+    {% for post in site.posts %}
+      <li class="post-list">
+        <a class="post-list-title" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <p class="post-list-date">
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+        </p>
+      </li>
+    {% endfor %}
+
+  </ul>
+</aside>

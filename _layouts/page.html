@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <!-- document-wrap -->
+  <section class="right-content-wrap">
+{{ content }}
+
+    <!-- 푸터영역 -->
+    <footer>
+      <address>
+        <p>2018 &copy;  <a href="">younlab.github.io</a></p>
+      </address>
+    </footer>
+  </section>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $('#post-button').click(
+      function() {
+          $('#post-list-wrap').toggle(['swing', 'fast', '800']);
+      }
+  );
+
+  $('.hamburger').click(
+    function() {
+        $('button.hamburger').toggleClass('is-active');
+    }
+  );
+</script>
+</body>
+
+
+</html>
