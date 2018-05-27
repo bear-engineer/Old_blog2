@@ -1150,6 +1150,7 @@ html, body {
 
 li, ol, ul {
   line-height: 1.6;
+  letter-spacing: .8;
 }
 
 a {
@@ -1158,7 +1159,7 @@ a {
 
 h1, h2, h3, h4, h5, h6, b, strong, p, span, a {
   color: #333;
-  line-height: 1.6 !important;
+  line-height: 1.6;
   letter-spacing: .8;
 }
 
@@ -1169,8 +1170,9 @@ h1, h2, h3, h4, h5, h6, b, strong {
 
 p, span, a {
   font-family: "Noto Sans Light","Malgun Gothic",sans-serif !important;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 100%;
+  letter-spacing: .8;
 }
 
 .pagination {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Class"
+title:  "Python Class 실습01"
 date:   2018-05-23
 excerpt: "Python Class"
 tag:

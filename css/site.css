@@ -3269,6 +3269,7 @@ header #post-button {
 .content-document-wrap article li {
   box-sizing: border-box;
   margin-left: 16px;
+  font-weight: 400;
 }
 
 .content-document-wrap article ul, .content-document-wrap article li, .content-document-wrap article ol {
