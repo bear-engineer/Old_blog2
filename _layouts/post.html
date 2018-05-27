@@ -2,11 +2,17 @@
 layout: default
 ---
 <!-- document-wrap -->
+  <section class="content-title-wrap">
+    <article>
+        <h2>{{ page.title }}</h2>
+        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
+
+      </article>
+  </section>
   <section class="content-document-wrap">
     <article>
       {{ content }}
       <!-- <br> {% include share.html %} -->
       {% include page-pagination.html %}
     </article>
-
   </section>
